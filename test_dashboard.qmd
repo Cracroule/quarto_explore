@@ -1,0 +1,52 @@
+---
+title: "Quarto Experiment"
+format: 
+  dashboard:
+    nav-buttons:
+      - icon: gitlab
+        href: https://gitlab.com/
+---
+
+# Introduction
+
+## LaTeX Formula
+
+Here is a LaTeX formula for the quadratic equation:
+
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+Looks pretty innit? $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+Alea jacta est
+
+# The rest
+
+## R Code
+
+```{r, echo=F}
+# test
+plot(cars)
+```
+
+Here is something else
+
+`{r} 1+1` ok?
+
+
+```{r}
+#| layout: [[1,1], [1]]
+library(dygraphs)
+dygraph(fdeaths, "Female Deaths")
+dygraph(mdeaths, "Male Deaths")
+dygraph(ldeaths, "All Deaths")
+```
+
+## Other section
+
+I'm highly confused with the organisation of this document. Are you not?
+
+
+## something else
+
+How much can we fit in one page?
